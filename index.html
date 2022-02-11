@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="title"><h1>Weather App</h1></div>
+    <form class="form-inline" action="/" method="post">
+      <label>Location :</label>
+      <input
+        id="cityInput"
+        type="text"
+        name="cityName"
+        placeholder="Search by Location"
+      />
+      <button type="submit">Search</button>
+    </form>
+    <style>
+      .form-inline {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+      }
+      .form-inline label {
+        margin: 5px 10px 5px 0;
+        font-size: 20px;
+      }
+      .form-inline input {
+        vertical-align: middle;
+        margin: 5px 10px 5px 0;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        font-size: 15px;
+      }
+      .form-inline button {
+        padding: 10px 20px;
+        background-color: dodgerblue;
+        border: 1px solid #ddd;
+        color: white;
+        font-size: 15px;
+      }
+      .form-inline button:hover {
+        background-color: royalblue;
+      }
+      .title h1 {
+        color: lightseagreen;
+        font-size: 50px;
+      }
+    </style>
+  </body>
+</html>
